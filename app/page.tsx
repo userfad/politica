@@ -424,19 +424,7 @@ export default function Home() {
 
       </main>
 
-      <footer className="bg-blue-800 text-white py-8">
-        <div className="container mx-auto px-4 text-center">
-          <p>&copy; 2024 Política Voz do Povo. Todos os direitos reservados.</p>
-          <div className="mt-4 space-x-4">
-            <a href="#" className="hover:text-blue-300 transition duration-300">
-              Política de Privacidade
-            </a>
-            <a href="#" className="hover:text-blue-300 transition duration-300">
-              Termos de Uso
-            </a>
-          </div>
-        </div>
-      </footer>
+  
     </div>
   );
 }
