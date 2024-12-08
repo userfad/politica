@@ -288,7 +288,7 @@ export default function Home() {
         <div className="space-y-4 sm:space-y-6">
           <Input
             type="text"
-            placeholder="Seu nome"
+            placeholder="Nome"
             value={name}
             onChange={(e) => setName(e.target.value)}
             required
@@ -296,14 +296,14 @@ export default function Home() {
           />
           <Input
             type="email"
-            placeholder="Seu e-mail"
+            placeholder="E-mail"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             required
             className="w-full p-3 rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-green-600"
           />
           <Textarea
-            placeholder="Sua mensagem"
+            placeholder="Mensagem"
             value={message}
             onChange={(e) => setMessage(e.target.value)}
             required
