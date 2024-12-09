@@ -41,7 +41,7 @@ export default function Home() {
 
   return (
     <div className="flex flex-col min-h-screen bg-gray-50">
-      <header className="bg-[#55c0ff] text-white py-4 sticky top-0 z-50">
+      <header className="bg-blue-600 text-white py-4 sticky top-0 z-50">
   <div className="container mx-auto px-4">
     <nav className="flex justify-between items-center">
       <a href="#" className="text-2xl font-bold">
